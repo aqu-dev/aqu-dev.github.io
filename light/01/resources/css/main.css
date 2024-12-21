@@ -10,6 +10,10 @@ html, body{
     overflow-x: hidden;
 }
 
+video{
+    max-width: 100%;
+}
+
 section {
     display: flex;
     position: relative;
@@ -62,8 +66,8 @@ nav a {
     justify-content: space-between;
 }
 
-.flex-1{
-    flex: 1;
+.flex-column{
+    flex: 0 0 50%;
 }
 
 .particles-js-canvas-el{
@@ -92,8 +96,13 @@ nav a {
 }
 
 .about-section{
-    padding: 3rem 0;
+    padding: 4rem 0;
     background: #f5f5f5;
+}
+
+.service-section{
+    padding: 4rem 0;
+    background: #fff;
 }
 
 .video-background{
